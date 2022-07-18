@@ -1,0 +1,29 @@
+body{
+    background: url(https://fondosmil.com/fondo/17016.jpg) no-repeat;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#clock{
+    font-family: sans-serif;
+    font-size: 60px;
+    text-shadow: 0px 0px 1px #333;
+    color: #fff;
+}
+.clock-container{
+    padding: 25px;
+    max-width: 311px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    margin: 0 auto;
+    margin-top: 10%;
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(10px)
+}
+#date{
+    letter-spacing: 10px;
+    font-size: 15px;
+}
